@@ -3,8 +3,13 @@
 
 ---
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/bartosz-szostakiewicz/) 
+
+### 🌐 Connect with Me
+<p align="left">
+  <a href="https://www.linkedin.com/in/bartosz-szostakiewicz/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</p>
 
 ---
 
