@@ -13,6 +13,22 @@
 
 ---
 
+### 🧩 Featured Projects
+
+#### 🐜 [Ant Colony Optimization for TSP (CUDA C++)](https://github.com/Bartekszost/ACO-TSP)
+Implemented a **parallel Ant Colony Optimization algorithm** for the **Travelling Salesman Problem** using **CUDA**.  
+- Achieved over **2× speedup** compared to a naïve GPU implementation.  
+- Leveraged **CUDA Graphs** and memory optimization techniques.  
+- Developed and tested on a **university GPU cluster** as part of the **Parallel Programming** course at MIMUW.
+
+#### ☁️ [Weather Map Application (React, Redux, TypeScript)](https://gitlab.mimuw.edu.pl/bs448513/waw-weather-app)
+Built an interactive **Weather Map Web App** as part of the **Web Applications** course.  
+- Integrated **Overpass** and **Weather APIs** for real-time data visualization.  
+- Used **Redux** for state management and **Redux-Observable** for reactive programming.  
+- Designed a clean, responsive UI with **TypeScript** and **Material-UI**.
+
+---
+
 ### 🧰 Tech Stack
 
 #### 💬 Languages
