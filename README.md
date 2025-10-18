@@ -43,7 +43,7 @@ The project demonstrates scalability trade-offs in distributed-memory graph proc
 
 ---
 
-#### 🗺️ [MapReduce System (Kubernetes, Google Cloud, Java)](https://github.com/Bartekszost/MapReduce-System)
+#### 🗺️ [MapReduce System (Kubernetes, Google Cloud, Java)](https://github.com/Bartekszost/MapReduce-IRIO)
 Designed and implemented a distributed **MapReduce system** deployed on **Google Cloud Kubernetes Engine (GKE)**.  
 The project demonstrates the full workflow of scalable data processing — from local binaries to containerized orchestration.
 
