@@ -43,6 +43,20 @@ The project demonstrates scalability trade-offs in distributed-memory graph proc
 
 ---
 
+#### 🗺️ [MapReduce System (Kubernetes, Google Cloud, Java)](https://github.com/Bartekszost/MapReduce-System)
+Designed and implemented a distributed **MapReduce system** deployed on **Google Cloud Kubernetes Engine (GKE)**.  
+The project demonstrates the full workflow of scalable data processing — from local binaries to containerized orchestration.
+
+- ⚙️ Implemented **Map**, **Partitioner**, **Combiner**, and **Reduce** stages as statically linked binaries, ensuring portability and performance.  
+- 🐳 Containerized each component using **Docker**, and deployed them via **Kubernetes** manifests on **GKE**.  
+- ☁️ Automated deployment using **Google Artifact Registry** and shell scripts (`build_docker.sh`, `deploy.sh`) for reproducible builds.  
+- 🧩 Developed a **Java client** for orchestrating and monitoring distributed tasks through network communication with the master node.  
+- 🧠 Explored distributed file partitioning, intermediate combining, and fault-tolerant reduce operations at cluster scale.  
+
+**Technologies:** Java, C++, Docker, Kubernetes (GKE), Google Cloud Platform, Bash Automation  
+
+---
+
 #### ☁️ [Weather Map Application (React, Redux, TypeScript)](https://gitlab.mimuw.edu.pl/bs448513/waw-weather-app)
 Interactive **Weather Map Web App** developed as part of the **Web Applications** course at **MIMUW**.  
 Visualizes real-time weather and geospatial data using modern, reactive frontend architecture.
