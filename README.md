@@ -16,15 +16,44 @@
 ### 🧩 Featured Projects
 
 #### 🐜 [Ant Colony Optimization for TSP (CUDA C++)](https://github.com/Bartekszost/ACO-TSP)
-**Parallel Ant Colony Optimization algorithm** for the **Travelling Salesman Problem** using **CUDA**.  
-- Achieved over **2× speedup** compared to a naïve GPU implementation.  
-- Leveraged **CUDA Graphs** and memory optimization techniques.  
-- Developed and tested on a **university GPU cluster** as part of the **High Performance Computing** course at MIMUW.
+Parallel **Ant Colony Optimization (ACO)** algorithm for the **Travelling Salesman Problem (TSP)**, implemented fully in **CUDA**.  
+The project explores GPU parallelism, shared memory optimization, and data-parallel algorithms inspired by *Cecilia & García (2012)*.
+
+- 🚀 Implemented both **Worker Ant** and **Queen Ant** variants, leveraging **shared memory** and **prefix-sum (Blelloch) parallel reduction** for improved efficiency.  
+- ⚙️ Used **atomic pheromone updates**, **CUDA Graphs**, and **curand** for reproducible stochastic behavior.  
+- 📈 Achieved up to **3–5× faster execution** compared to the Worker baseline, with stable numerical results on large datasets (`rat783`, `pr1002`).  
+- 🧪 Benchmarked on an **NVIDIA Titan V GPU cluster** with datasets up to 1000 cities.  
+
+**Technologies:** CUDA, C++, GPU Programming, Parallel Reduction, Shared Memory Optimization  
+**Paper:** [Enhancing Data Parallelism for Ant Colony Optimisation on GPUs (Cecilia & García, 2012)](https://doi.org/10.1016/j.jpdc.2012.01.002)
+
+---
+
+#### ⚙️ [Distributed SSSP – Δ-Stepping in MPI](https://github.com/Bartekszost/MPI-SSSP)
+Implemented a **distributed Δ-Stepping algorithm** for the **Single Source Shortest Paths (SSSP)** problem using **MPI**.  
+The project demonstrates scalability trade-offs in distributed-memory graph processing.
+
+- 🧮 Designed an efficient **message-passing scheme** with `MPI_Alltoallv` for inter-process bucket synchronization.  
+- ⚙️ Integrated **hybridization** and **edge classification** heuristics, yielding up to **20–50% performance gain** over the baseline.  
+- 📊 Conducted **Δ-parameter tuning** and **weak scaling benchmarks** up to **80 MPI workers**, analyzing communication overhead and workload balance.  
+- 🌐 Generated test graphs via **RMAT-1** and **RMAT-2** models, following *Chakaravarthy et al., “Scalable SSSP Algorithms for Massively Parallel Systems” (IPDPS 2014)*.  
+
+**Technologies:** C++, MPI, Parallel Computing, High-Performance Benchmarking  
+**Paper:** [Scalable Single Source Shortest Path Algorithms for Massively Parallel Systems (Chakaravarthy et al., 2014)](https://www.odbms.org/wp-content/uploads/2014/05/sssp-ipdps2014.pdf)
+
+---
 
 #### ☁️ [Weather Map Application (React, Redux, TypeScript)](https://gitlab.mimuw.edu.pl/bs448513/waw-weather-app)
-Interactive **Weather Map Web App** as part of the **Web Applications** course at MIMUW.  
-- Integrated **Overpass** and **Weather APIs** for real-time data visualization.  
-- Used **Redux** for state management and **Redux-Observable** for reactive programming.
+Interactive **Weather Map Web App** developed as part of the **Web Applications** course at **MIMUW**.  
+Visualizes real-time weather and geospatial data using modern, reactive frontend architecture.
+
+- 🌦️ Integrated **Overpass** and **Weather APIs** for dynamic map-based weather visualization.  
+- 🔁 Utilized **Redux** and **Redux-Observable** for state management and asynchronous data flow.  
+- 💨 Built a **responsive, TailwindCSS-based UI** focused on clarity and performance.  
+- ⚡ Designed with modular architecture and component reusability for scalability.  
+
+**Technologies:** React, TypeScript, Redux, Redux-Observable, TailwindCSS, API Integration  
+
 
 ---
 
